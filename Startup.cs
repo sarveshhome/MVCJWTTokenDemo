@@ -58,11 +58,13 @@ namespace MVCJWTTokenDemo
             // This middleware serves generated Swagger document as a JSON endpoint
             app.UseSwagger();
 
+
             // This middleware serves the Swagger documentation UI
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Product API V1");
             });
+
 
             // other code remove for clarity 
             loggerFactory.AddFile("Logs/myapplog-{Date}.txt");
