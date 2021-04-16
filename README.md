@@ -26,3 +26,34 @@ MVC JWT Token Demo
  URL for document:  https://localhost:44379/swagger/index.html
  
                      https://localhost:44379/swagger/v1/swagger.json
+
+
+----------------------------------------------------------------------------------------
+## Logger in ASP.NET Core 
+
+In Program.cs, we add following code
+
+.ConfigureLogging(logBuilder =>
+    {
+        logBuilder.ClearProviders(); // removes all providers from LoggerFactory
+        logBuilder.AddConsole();  
+        logBuilder.AddTraceSource("Information, ActivityTracing"); // Add Trace listener provider
+    })
+
+2. add code in startup.cs with methodd Configure 
+  
+public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) 
+{
+    // other code remove for clarity 
+    loggerFactory.AddFile("Logs/mylog-{Date}.txt");
+}
+
+3. install package through PackageManager console
+
+Install-Package Serilog.Extensions.Logging.File -Version 2.0.0 
+
+
+
+
+
+

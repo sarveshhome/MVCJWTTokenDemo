@@ -20,9 +20,11 @@ namespace MVCJWTTokenDemo
             Host.CreateDefaultBuilder(args).
                 ConfigureLogging(logBuilder =>
                 {
-                    logBuilder.ClearProviders(); // removes all providers from LoggerFactory
+
+                    logBuilder.ClearProviders(); // removes all providers from LoggerFactory.
                     logBuilder.AddConsole();
-                    logBuilder.AddTraceSource("Information, ActivityTracing"); // Add Trace listener provider
+                    logBuilder.AddTraceSource("Information, ActivityTracing"); // Add Trace listener provider.
+
                 })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
