@@ -18,7 +18,7 @@
       "launchBrowser": true,
       "launchUrl": "api/products",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT2": "stagging",
+        //"ASPNETCORE_ENVIRONMENT2": "stagging",
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },

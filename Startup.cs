@@ -49,6 +49,11 @@ namespace MVCJWTTokenDemo
 
             app.UseAuthorization();
 
+            //UseDefaultFiles must be called before UseStaticFiles to serve the default file.UseDefaultFiles is a URL rewriter that doesn't serve the file.
+            //var options = new DefaultFilesOptions();
+            //options.DefaultFileNames.Clear();
+            //options.DefaultFileNames.Add("index.html");
+            //app.UseDefaultFiles(options);
             app.UseStaticFiles();
 
             app.UseEndpoints(endpoints =>
