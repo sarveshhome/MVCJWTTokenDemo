@@ -53,6 +53,15 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerF
 Install-Package Serilog.Extensions.Logging.File -Version 2.0.0 
 
 
+### wwwroot
+
+   - wwwroot folder in the ASP.NET Core project is treated as a web root folder
+   - Static files can be stored in any folder under the web root and accessed with a relative path to that root
+
+   #### add bootstrap and jquery  file
+    -> wwwroot -> right click -> add file - Client-side Libarary
+
+    -  right click on libman.json file and select "Restore Client-Side Libraries" from the context menu
 
 
 
