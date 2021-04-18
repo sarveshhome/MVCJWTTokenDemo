@@ -1,5 +1,6 @@
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\libman.json
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\MVCJWTTokenDemo.exe
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\MVCJWTTokenDemo.deps.json
@@ -8,6 +9,7 @@ C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\MVCJWTTokenDemo.dll
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\MVCJWTTokenDemo.pdb
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
@@ -24,6 +26,11 @@ C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
@@ -51,6 +58,7 @@ C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
@@ -115,4 +123,3 @@ C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\obj\Debug\netcoreapp3
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\obj\Debug\netcoreapp3.1\staticwebassets\MVCJWTTokenDemo.StaticWebAssets.xml
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\obj\Debug\netcoreapp3.1\MVCJWTTokenDemo.dll
 C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\obj\Debug\netcoreapp3.1\MVCJWTTokenDemo.pdb
-C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo\bin\Debug\netcoreapp3.1\libman.json
