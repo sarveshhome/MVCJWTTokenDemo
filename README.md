@@ -64,5 +64,55 @@ Install-Package Serilog.Extensions.Logging.File -Version 2.0.0
     -  right click on libman.json file and select "Restore Client-Side Libraries" from the context menu
 
 
+## JWTToken - https://jwt.io/introduction
+
+    Step 1 :- Generate 
+    -   `public string GenerateJSONWebToken()
+        {
+            // when he is validated AD
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+            var claims = new[] {
+                new Claim(JwtRegisteredClaimNames.Sub, "sar"),
+                new Claim(JwtRegisteredClaimNames.Email, "sarveshmcasoft@gmail.com"),
+                new Claim("Role", "Admin"),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+                };
+            var token = new JwtSecurityToken(_config["Jwt:Issuer"],
+              _config["Jwt:Issuer"],
+              claims,
+              expires: DateTime.Now.AddMinutes(120),
+              signingCredentials: credentials);
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }`
+
+
+    Step 2: Attache the middle ware 
+                  
+           ` services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+           .AddJwtBearer(options =>
+           {
+
+               options.TokenValidationParameters = new TokenValidationParameters
+               {
+                   ValidateIssuer = true,
+                   ValidateAudience = true,
+                   ValidateLifetime = true,
+                   ValidateIssuerSigningKey = true,
+                   ValidIssuer = Configuration["Jwt:Issuer"],
+                   ValidAudience = Configuration["Jwt:Issuer"],
+                   IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]))
+               };
+           });`
+
+
+    Step 3: Add data in file appsettings.json
+
+       `"Jwt": {
+                "Key": "545454568686869898989",
+                "Issuer": "sarveshsoft"
+            }`
+
 
 
