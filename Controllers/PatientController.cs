@@ -14,10 +14,11 @@ namespace MVCJWTTokenDemo.Controllers
     public class PatientController : ControllerBase
     {
         private PatientDbContext _db = null;
-
-        public PatientController(PatientDbContext db,ILogger logger)
+        private ILogger _logger;
+        public PatientController(PatientDbContext db, ILogger<PatientController> logger)
         {
             _db = db;
+            _logger = logger;
             db.Database.EnsureCreated();
         }
         //public IActionResult Index()

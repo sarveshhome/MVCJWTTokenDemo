@@ -16,7 +16,7 @@ namespace MVCJWTTokenDemo.DAL
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=sony-vaio;Initial Catalog=PatientDB;User ID=sa;Password=Password@123");
+            optionsBuilder.UseSqlServer(@"Data Source=sony-vaio;Initial Catalog=PatientDB;User ID=sa;Password=password@123");
         }
         public DbSet<Patient> Patients { get; set; }
     }
