@@ -2,7 +2,7 @@
 
 MVC JWT Token Demo 
 
-##ASP.NET Core web API documentation with Swagger / OpenAPI
+## ASP.NET Core web API documentation with Swagger / OpenAPI
 
      - Install Swashbuckle.Aspnetcore
             1.Right-click the API project in Solution Explorer and select Manage NuGet Packages
@@ -64,6 +64,7 @@ Install-Package Serilog.Extensions.Logging.File -Version 2.0.0
     -  right click on libman.json file and select "Restore Client-Side Libraries" from the context menu
 
 
+
 ## JWTToken - https://jwt.io/introduction
 
     Step 1 :- Generate 
@@ -116,5 +117,8 @@ Install-Package Serilog.Extensions.Logging.File -Version 2.0.0
 
 
 https://localhost:44379/api/login
+
+
+
 
 
