@@ -16,7 +16,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/login",
+      "launchUrl": "api/products",
       "environmentVariables": {
         //"ASPNETCORE_ENVIRONMENT2": "stagging",
         "ASPNETCORE_ENVIRONMENT": "Development"
@@ -25,7 +25,7 @@
     "MVCJWTTokenDemo": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/login",
+      "launchUrl": "api/products",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
