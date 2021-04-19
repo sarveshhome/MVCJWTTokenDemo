@@ -21,11 +21,7 @@ namespace MVCJWTTokenDemo.Controllers
         public securityController(IConfiguration config)
         {
             _config = config;
-        }
-        //public IActionResult Index()
-        //{
-        //    return View();
-        //}
+        }       
 
         // Step 1 :- Generate 
         public string GenerateJSONWebToken()
@@ -50,11 +46,13 @@ namespace MVCJWTTokenDemo.Controllers
         [HttpPost("/api/login")]
         public IActionResult Login(User user)
         {
-            if (user.userName == "QP")
+            if (user.userName == "Sar")
             {
                 string str = GenerateJSONWebToken();
 
-                return Ok();
+                return Content(str);
+
+                //return Ok();
             }
             else
             {

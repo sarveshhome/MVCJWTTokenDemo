@@ -1,0 +1,6 @@
+2021-04-19T08:30:26.4872944+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-04-19T08:30:26.4949252+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-04-19T08:30:26.4951505+01:00  [INF] Content root path: "C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo" (b5d60022)
+2021-04-19T08:53:17.6876017+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-04-19T08:53:17.7059581+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-04-19T08:53:17.7062212+01:00  [INF] Content root path: "C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo" (b5d60022)
