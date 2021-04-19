@@ -19,6 +19,8 @@ using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 using Microsoft.IdentityModel.Tokens;
+using MVCJWTTokenDemo.DAL;
+
 namespace MVCJWTTokenDemo
 {
     public class Startup
@@ -33,6 +35,9 @@ namespace MVCJWTTokenDemo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Database add with code first 
+            services.AddScoped<PatientDbContext>();
+
             // Step 2 :- Attache the middle ware            
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
            .AddJwtBearer(options =>
