@@ -20,15 +20,11 @@ namespace MVCJWTTokenDemo.Controllers
             _db = db;
             _logger = logger;
             db.Database.EnsureCreated();
-        }
-        //public IActionResult Index()
-        //{
-        //    return View();
-        //}
+        }        
         [HttpPost("/api/patient")]
         public IActionResult AddPatient(Patient patientObj)
         {
-
+            _logger.LogInformation("Add Patient");
             _db.Patients.Add(patientObj); //in memory
             _db.SaveChanges(); //physical commit 
             return Content("result");

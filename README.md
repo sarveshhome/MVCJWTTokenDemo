@@ -4,6 +4,8 @@ MVC JWT Token Demo
 
 ## ASP.NET Core web API documentation with Swagger / OpenAPI
 
+### Configuring and Using Swagger UI in ASP.NET Core Web API
+
      - Install Swashbuckle.Aspnetcore
             1.Right-click the API project in Solution Explorer and select Manage NuGet Packages
             2.Type Swashbuckle.AspNetCore in the search box
