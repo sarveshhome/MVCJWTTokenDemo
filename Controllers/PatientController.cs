@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using MVCJWTTokenDemo.DAL;
@@ -10,6 +11,7 @@ using MVCJWTTokenDemo.Model;
 namespace MVCJWTTokenDemo.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("[controller]")]
     public class PatientController : ControllerBase
     {
